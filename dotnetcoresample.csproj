@@ -5,5 +5,11 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
+	<!-- Custom Warm Up Sample for certain Pages for example... -->>
+	<!--<system.webServer>
+		<applicationInitialization>
+			<add initializationPage="/" hostName="[app hostname]" />
+			<add initializationPage="/Home/About" hostName="[app hostname]" />
+		</applicationInitialization>
+	</system.webServer>-->
 </Project>
